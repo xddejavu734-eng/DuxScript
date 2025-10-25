@@ -1,0 +1,16 @@
+-- Tabla de juegos y scripts
+local Games = {
+    [96601927506261] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dux%20Bee%20Script", -- Bee Rich
+    [123900106804415] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dux%20Hub%20mart%20simulator" -- Mart Simulator
+}
+
+-- Detectar el juego actual
+local currentGameId = game.PlaceId
+local scriptUrl = Games[currentGameId]
+
+-- Cargar y ejecutar el script si existe
+if scriptUrl then
+    loadstring(game:HttpGet(scriptUrl))()
+else
+    print("No hay script disponible para este juego.")
+end
