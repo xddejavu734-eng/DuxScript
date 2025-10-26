@@ -3,7 +3,8 @@ local Games = {
     [123900106804415] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dux%20Hub%20mart%20simulator", -- Mart Simulator
     [81440632616906] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/%E2%9B%8F%EF%B8%8F%20Dig%20to%20Earth's%20CORE!%20Dux%20Hub", -- Dig to Earth's CORE!
     [96151237893653] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dux%20Hub%20Brainrot%20Royale", -- Brainrot Royale
-    [128811184] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dam%20Tyccon%20Dux%20Hub" -- Dam Tycoon
+    [128811184] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dam%20Tyccon%20Dux%20Hub", -- Dam Tycoon
+    [96780658634427] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/BrainrotRestuarant%20Dux%20Hub" -- Brainrot Restaurant
 }
 
 local currentGameId = game.PlaceId
@@ -13,6 +14,5 @@ if scriptUrl then
     print("Cargando script para PlaceId:", currentGameId)
     loadstring(game:HttpGet(scriptUrl))()
 else
-    print("❌ No hay script disponible para este juego:", currentGameId)
-    print("🌀 Únete al Discord para pedir soporte: https://discord.gg/T7gdwmHY")
+    print("No hay script disponible para este juego:", currentGameId)
 end
