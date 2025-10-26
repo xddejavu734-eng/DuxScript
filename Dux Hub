@@ -4,9 +4,11 @@ local Games = {
     [81440632616906] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/%E2%9B%8F%EF%B8%8F%20Dig%20to%20Earth's%20CORE!%20Dux%20Hub", -- Dig to Earth's CORE!
     [96151237893653] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dux%20Hub%20Brainrot%20Royale", -- Brainrot Royale
     [128811184] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Dam%20Tyccon%20Dux%20Hub", -- Dam Tycoon
-    [96780658634427] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/BrainrotRestuarant%20Dux%20Hub" -- Brainrot Restaurant
+    [96780658634427] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/BrainrotRestuarant%20Dux%20Hub", -- Brainrot Restaurant
+    [115285389424252] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Rob%20The%20Mother%20Dux%20Hub" -- Rob The Mother
 }
 
+-- Ejecutar automáticamente el script si existe
 local currentGameId = game.PlaceId
 local scriptUrl = Games[currentGameId]
 
