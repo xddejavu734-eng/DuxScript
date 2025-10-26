@@ -7,7 +7,8 @@ local Games = {
     [96780658634427] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/BrainrotRestuarant%20Dux%20Hub", -- Brainrot Restaurant
     [115285389424252] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Rob%20The%20Mother%20Dux%20Hub", -- Rob The Mother
     [74971517386226] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Make%20a%20Brainrot%20Army%E2%9A%94%EF%B8%8F%5BHalloween%5D%20Dux%20Hub", -- Make a Brainrot Army [Halloween]
-    [19002485340] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Mega%20Luxury%20Dux%20Hub" -- Mega Luxury Dux Hub
+    [19002485340] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/Mega%20Luxury%20Dux%20Hub", -- Mega Luxury Dux Hub
+    [16632764973] = "https://raw.githubusercontent.com/xddejavu734-eng/DuxScript/main/chicken%20Gun%20Dux%20Hub" -- Chicken Gun Dux Hub
 }
 
 -- Ejecutar automáticamente el script si existe
